@@ -4,8 +4,8 @@ const taskSchema= mongoose.Schema({
     description:String,
     status:String,
     date:String,
-    // priority:["Low","Medium","High"],
-    // category:["personal","work","study"],
+    priority:["Low","Medium","High"],
+    category:["personal","work","study"],
   
 
 })
